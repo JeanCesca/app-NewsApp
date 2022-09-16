@@ -51,13 +51,12 @@
 			path = Model;
 			sourceTree = "<group>";
 		};
-		0F4FC84928C6968B00EBBD8B /* View */ = {
+		0F4FC84928C6968B00EBBD8B /* Controller */ = {
 			isa = PBXGroup;
 			children = (
 				0FC14E0728BD42860061853C /* NewsViewController.swift */,
-				0F4FC84428C6743000EBBD8B /* NewsTableViewCell.swift */,
 			);
-			path = View;
+			path = Controller;
 			sourceTree = "<group>";
 		};
 		0F4FC84A28C6969C00EBBD8B /* Service */ = {
@@ -66,13 +65,6 @@
 				0F4FC84228C66DDB00EBBD8B /* APICaller.swift */,
 			);
 			path = Service;
-			sourceTree = "<group>";
-		};
-		0F4FC84B28C696B700EBBD8B /* View Model */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = "View Model";
 			sourceTree = "<group>";
 		};
 		0FC14DF728BD42860061853C = {
@@ -98,14 +90,22 @@
 				0FC14E0528BD42860061853C /* SceneDelegate.swift */,
 				0F4FC84A28C6969C00EBBD8B /* Service */,
 				0F4FC84828C6967800EBBD8B /* Model */,
-				0F4FC84B28C696B700EBBD8B /* View Model */,
-				0F4FC84928C6968B00EBBD8B /* View */,
+				0F4FC84928C6968B00EBBD8B /* Controller */,
+				0FD4DBB828D4B59C006C0AF2 /* View */,
 				0FC14E0928BD42860061853C /* Main.storyboard */,
 				0FC14E0C28BD42870061853C /* Assets.xcassets */,
 				0FC14E0E28BD42870061853C /* LaunchScreen.storyboard */,
 				0FC14E1128BD42870061853C /* Info.plist */,
 			);
 			path = "app-News";
+			sourceTree = "<group>";
+		};
+		0FD4DBB828D4B59C006C0AF2 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				0F4FC84428C6743000EBBD8B /* NewsTableViewCell.swift */,
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
