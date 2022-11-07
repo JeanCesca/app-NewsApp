@@ -2,9 +2,9 @@
 Aplicativo de exibição de notícias/matérias globais atualizadas.
 
 ## Principais skills para o desenvolvimento do app:
-ViewCode (no Storyboards);
+ViewCode;
 Requisição API's;
-UITableViews;
+UITableView;
 UISearchBar;
 
 ### Demonstração
